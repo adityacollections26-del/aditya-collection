@@ -30,9 +30,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-24">
 
           {/* Logo */}
-
           <Link href="/" className="flex items-center">
-
             <Image
               src="/images/logo/logo.png"
               alt="Aditya Collections"
@@ -41,11 +39,9 @@ export default function Header() {
               priority
               className="h-16 w-auto object-contain"
             />
-
           </Link>
 
           {/* Navigation */}
-
           <nav className="hidden lg:flex items-center gap-10">
 
             <Link
@@ -86,12 +82,11 @@ export default function Header() {
           </nav>
 
           {/* WhatsApp Button */}
-
           <a
-            href="https://wa.me/91XXXXXXXXXX"
+            href="https://wa.me/919864196559?text=Hi%20Aditya%20Collections,%20I%20am%20interested%20in%20your%20jewellery."
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden lg:inline-flex rounded-full bg-yellow-500 px-6 py-3 font-semibold text-black transition hover:bg-yellow-400"
+            className="hidden lg:inline-flex items-center gap-2 rounded-full bg-yellow-500 px-6 py-3 font-semibold text-black transition hover:bg-yellow-400"
           >
             WhatsApp
           </a>

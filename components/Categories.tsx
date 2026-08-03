@@ -21,7 +21,10 @@ const categories = [
 
 export default function CategorySection() {
   return (
-    <section className="bg-[#080808] py-24">
+    <section
+  id="categories"
+  className="bg-[#080808] py-24"
+>
       <div className="max-w-7xl mx-auto px-6">
         <p
           className="text-center uppercase tracking-[8px] text-yellow-500 text-sm"
