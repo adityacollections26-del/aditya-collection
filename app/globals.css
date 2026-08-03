@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+
+  --gold: #D4AF37;
+  --cream: #F8F5EF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+.gold-text {
+  color: var(--gold);
+}
+
+.section-padding {
+  padding: 6rem 0;
+}
+
+.container-custom {
+  width: min(90%, 1400px);
+  margin-inline: auto;
+}
