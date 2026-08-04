@@ -1,7 +1,6 @@
 export default function ContactSection() {
   return (
     <section className="bg-black py-24">
-
       <div className="max-w-7xl mx-auto px-6">
 
         <p
@@ -18,52 +17,122 @@ export default function ContactSection() {
           Let's Connect
         </h2>
 
-        <div className="grid lg:grid-cols-2 gap-10">
+        <div className="grid gap-10 lg:grid-cols-2">
 
-          <div className="bg-[#111] rounded-3xl p-10 border border-yellow-500/20">
+          {/* Contact Details */}
+
+          <div className="rounded-3xl border border-yellow-500/20 bg-[#111] p-10">
 
             <h3
-              className="text-white text-3xl mb-8"
+              className="mb-8 text-3xl text-white"
               style={{ fontFamily: "var(--font-heading)" }}
             >
               Contact Details
             </h3>
 
-            <div className="space-y-5 text-gray-300">
+            <div className="space-y-6 text-lg text-gray-300">
 
-              <p>📍 Jaipur, Rajasthan</p>
+              <div>
+                <span className="text-yellow-500">📍 Address</span>
+                <p className="mt-2">
+                  Watika, Jaipur, Rajasthan - 303905
+                </p>
+              </div>
 
-              <p>📞 +91 XXXXXXXXXX</p>
+              <div>
+                <span className="text-yellow-500">📞 Phone</span>
+                <p className="mt-2">
+                  <a
+                    href="tel:+918486779157"
+                    className="hover:text-yellow-500 transition"
+                  >
+                    +91 8486779157
+                  </a>
+                  <br />
+                  <a
+                    href="tel:+919864196559"
+                    className="hover:text-yellow-500 transition"
+                  >
+                    +91 9864196559
+                  </a>
+                </p>
+              </div>
 
-              <p>✉️ support@adityacollections.com</p>
+              <div>
+                <span className="text-yellow-500">💬 WhatsApp</span>
+                <p className="mt-2">
+                  <a
+                    href="https://wa.me/919864196559"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-yellow-500 transition"
+                  >
+                    +91 9864196559
+                  </a>
+                </p>
+              </div>
 
-              <p>🕒 Monday - Sunday</p>
+              <div>
+                <span className="text-yellow-500">✉️ Email</span>
+                <p className="mt-2">
+                  <a
+                    href="mailto:adityacollections26@gmail.com"
+                    className="hover:text-yellow-500 transition"
+                  >
+                    adityacollections26@gmail.com
+                  </a>
+                </p>
+              </div>
 
-              <p>10:00 AM - 8:00 PM</p>
+              <div>
+                <span className="text-yellow-500">📷 Instagram</span>
+                <p className="mt-2">
+                  <a
+                    href="https://instagram.com/aditya_collections"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-yellow-500 transition"
+                  >
+                    @aditya_collections
+                  </a>
+                </p>
+              </div>
+
+              <div>
+                <span className="text-yellow-500">🕒 Business Hours</span>
+                <p className="mt-2">
+                  Monday - Sunday
+                  <br />
+                  10:00 AM - 8:00 PM
+                </p>
+              </div>
 
             </div>
 
           </div>
 
-          <div className="bg-[#111] rounded-3xl p-10 border border-yellow-500/20 flex flex-col justify-center items-center text-center">
+          {/* WhatsApp */}
+
+          <div className="flex flex-col items-center justify-center rounded-3xl border border-yellow-500/20 bg-[#111] p-10 text-center">
 
             <h3
-              className="text-white text-3xl mb-6"
+              className="mb-6 text-3xl text-white"
               style={{ fontFamily: "var(--font-heading)" }}
             >
-              WhatsApp Orders
+              Order on WhatsApp
             </h3>
 
-            <p className="text-gray-300 leading-8 mb-8">
-              Place your jewellery order directly through WhatsApp and get
-              quick assistance from our team.
+            <p className="mb-8 max-w-md leading-8 text-gray-300">
+              Have questions or want to place an order?
+              Chat with us directly on WhatsApp for quick assistance,
+              product details and ordering.
             </p>
 
             <a
-              href="https://wa.me/91XXXXXXXXXX"
+              href="https://wa.me/919864196559?text=Hi%20Aditya%20Collections,%20I%20am%20interested%20in%20your%20jewellery."
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-yellow-500 text-black px-10 py-4 rounded-full font-semibold hover:bg-yellow-400 transition"
+              className="rounded-full bg-yellow-500 px-10 py-4 font-semibold text-black transition hover:bg-yellow-400"
             >
               Chat on WhatsApp
             </a>
@@ -73,7 +142,6 @@ export default function ContactSection() {
         </div>
 
       </div>
-
     </section>
   );
 }
