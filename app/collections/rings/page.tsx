@@ -1,12 +1,11 @@
+import CollectionPage from "@/components/Collectionpage";
+
 export default function RingsPage() {
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold">Rings</h1>
-        <p className="mt-4 text-gray-600">
-          Coming Soon
-        </p>
-      </div>
-    </main>
+    <CollectionPage
+      category="Rings"
+      title="Rings Collection"
+      description="Explore our stylish ring collection. New premium designs will be added soon."
+    />
   );
 }

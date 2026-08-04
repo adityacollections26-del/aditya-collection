@@ -7,9 +7,9 @@ export const products = [
     slug: "rose-gold-bracelet",
     name: "Rose Gold Bracelet",
     category: "Bracelets",
-    image: "/images/products/bracelet1.jpeg",
+    image: "/images/products/bracelet1.jpg",
     images: [
-      "/images/products/bracelet1.jpeg",
+      "/images/products/bracelet1.jpg",
     ],
     price: "₹799",
     description:
@@ -21,9 +21,9 @@ export const products = [
     slug: "gold-bracelet",
     name: "Luxury Gold Bracelet",
     category: "Bracelets",
-    image: "/images/products/bracelet2.jpeg",
+    image: "/images/products/bracelet2.jpg",
     images: [
-      "/images/products/bracelet2.jpeg",
+      "/images/products/bracelet2.jpg",
     ],
     price: "₹899",
     description:
@@ -35,9 +35,9 @@ export const products = [
     slug: "crystal-bracelet",
     name: "Crystal Bracelet",
     category: "Bracelets",
-    image: "/images/products/bracelet3.jpeg",
+    image: "/images/products/bracelet3.jpg",
     images: [
-      "/images/products/bracelet3.jpeg",
+      "/images/products/bracelet3.jpg",
     ],
     price: "₹699",
     description:
@@ -49,9 +49,9 @@ export const products = [
     slug: "minimal-bracelet",
     name: "Minimal Bracelet",
     category: "Bracelets",
-    image: "/images/products/bracelet4.jpeg",
+    image: "/images/products/bracelet4.jpg",
     images: [
-      "/images/products/bracelet4.jpeg",
+      "/images/products/bracelet4.jpg",
     ],
     price: "₹599",
     description:
@@ -63,9 +63,9 @@ export const products = [
     slug: "butterfly-bracelet",
     name: "Butterfly Bracelet",
     category: "Bracelets",
-    image: "/images/products/bracelet5.jpeg",
+    image: "/images/products/bracelet5.jpg",
     images: [
-      "/images/products/bracelet5.jpeg",
+      "/images/products/bracelet5.jpg",
     ],
     price: "₹849",
     description:
@@ -77,9 +77,9 @@ export const products = [
     slug: "silver-bracelet",
     name: "Silver Bracelet",
     category: "Bracelets",
-    image: "/images/products/bracelet6.jpeg",
+    image: "/images/products/bracelet6.jpg",
     images: [
-      "/images/products/bracelet6.jpeg",
+      "/images/products/bracelet6.jpg",
     ],
     price: "₹749",
     description:
@@ -91,9 +91,9 @@ export const products = [
     slug: "black-bracelet",
     name: "Black Bracelet",
     category: "Bracelets",
-    image: "/images/products/bracelet7.jpeg",
+    image: "/images/products/bracelet7.jpg",
     images: [
-      "/images/products/bracelet7.jpeg",
+      "/images/products/bracelet7.jpg",
     ],
     price: "₹799",
     description:
@@ -109,9 +109,9 @@ export const products = [
     slug: "classic-earrings",
     name: "Classic Earrings",
     category: "Earrings",
-    image: "/images/products/earring1.jpeg",
+    image: "/images/products/earring1.jpg",
     images: [
-      "/images/products/earring1.jpeg",
+      "/images/products/earring1.jpg",
     ],
     price: "₹499",
     description:
@@ -123,9 +123,9 @@ export const products = [
     slug: "rose-earrings",
     name: "Rose Gold Earrings",
     category: "Earrings",
-    image: "/images/products/earring2.jpeg",
+    image: "/images/products/earring2.jpg",
     images: [
-      "/images/products/earring2.jpeg",
+      "/images/products/earring2.jpg",
     ],
     price: "₹599",
     description:
@@ -137,9 +137,9 @@ export const products = [
     slug: "designer-earrings",
     name: "Designer Earrings",
     category: "Earrings",
-    image: "/images/products/earring3.jpeg",
+    image: "/images/products/earring3.jpg",
     images: [
-      "/images/products/earring3.jpeg",
+      "/images/products/earring3.jpg",
     ],
     price: "₹699",
     description:
@@ -155,9 +155,9 @@ export const products = [
     slug: "royal-necklace",
     name: "Royal Necklace",
     category: "Necklaces",
-    image: "/images/products/necklace1.jpeg",
+    image: "/images/products/necklace1.jpg",
     images: [
-      "/images/products/necklace1.jpeg",
+      "/images/products/necklace1.jpg",
     ],
     price: "₹1499",
     description:
@@ -169,9 +169,9 @@ export const products = [
     slug: "bridal-necklace",
     name: "Bridal Necklace",
     category: "Necklaces",
-    image: "/images/products/necklace2.jpeg",
+    image: "/images/products/necklace2.jpg",
     images: [
-      "/images/products/necklace2.jpeg",
+      "/images/products/necklace2.jpg",
     ],
     price: "₹1799",
     description:
@@ -183,9 +183,9 @@ export const products = [
     slug: "traditional-necklace",
     name: "Traditional Necklace",
     category: "Necklaces",
-    image: "/images/products/necklace3.jpeg",
+    image: "/images/products/necklace3.jpg",
     images: [
-      "/images/products/necklace3.jpeg",
+      "/images/products/necklace3.jpg",
     ],
     price: "₹1699",
     description:
@@ -197,9 +197,9 @@ export const products = [
     slug: "black-necklace",
     name: "Black Necklace",
     category: "Necklaces",
-    image: "/images/products/necklace4.jpeg",
+    image: "/images/products/necklace4.jpg",
     images: [
-      "/images/products/necklace4.jpeg",
+      "/images/products/necklace4.jpg",
     ],
     price: "₹1399",
     description:
@@ -215,9 +215,9 @@ export const products = [
     slug: "rose-pendant",
     name: "Rose Pendant",
     category: "Pendants",
-    image: "/images/products/pendant1.jpeg",
+    image: "/images/products/pendant1.jpg",
     images: [
-      "/images/products/pendant1.jpeg",
+      "/images/products/pendant1.jpg",
     ],
     price: "₹499",
     description:
@@ -229,9 +229,9 @@ export const products = [
     slug: "minimal-pendant",
     name: "Minimal Pendant",
     category: "Pendants",
-    image: "/images/products/pendant2.jpeg",
+    image: "/images/products/pendant2.jpg",
     images: [
-      "/images/products/pendant2.jpeg",
+      "/images/products/pendant2.jpg",
     ],
     price: "₹549",
     description:
@@ -243,9 +243,9 @@ export const products = [
     slug: "classic-pendant",
     name: "Classic Pendant",
     category: "Pendants",
-    image: "/images/products/pendant3.jpeg",
+    image: "/images/products/pendant3.jpg",
     images: [
-      "/images/products/pendant3.jpeg",
+      "/images/products/pendant3.jpg",
     ],
     price: "₹599",
     description:
